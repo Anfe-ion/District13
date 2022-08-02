@@ -1,0 +1,155 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    background: #f3a99893;
+}
+
+.footer-first-section, .sections-footer, .contact-footer, .logo-footer{
+    background: none;
+}
+
+.p-footer, .p-2-footer{
+    background: none;
+}
+
+.p-footer{
+    margin-left: -5px;
+    margin-top: -80px;
+}
+
+.footer-first-section{
+    margin: 7rem 0rem 0rem 6rem;
+    color: black;
+
+}
+
+.ul-sections-footer{
+    list-style: none;
+    background: none;
+}
+
+.li-sections-footer{
+    background: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.li-sections-footer:first-child{
+    margin-top: 2rem;
+}
+
+.a-sections-footer{
+    background: none;
+    color: black;
+}
+
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 10rem 2rem 0rem;
+}
+
+.p-contact-footer{
+    background: none;
+    font-weight: 600;
+}
+
+.input-contact-footer, .input-2-contact-footer{
+    width: 50rem;
+    margin-top: 0.5rem;
+    border: none;
+    padding: 0.5rem
+}
+
+.input-contact-footer:focus, .input-2-contact-footer:focus{
+    outline: none;
+}
+
+.input-contact-footer{
+    height: 2rem;
+    margin-bottom: 0.1rem;  
+}
+
+.input-2-contact-footer{
+    height: 7rem;
+    margin-bottom: 0.5rem;
+}
+
+.button-contact-footer{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    background: #FF5733;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.button-contact-footer:hover{
+    background-color: #2A7AE4;
+}
+
+.button-contact-footer:active{
+    background-color: #FF5733;
+}
+
+.developed-by{
+    text-align: center;
+    padding: 2rem;
+}
+
+
+@media screen and (max-width: 700px){
+    .footer-first-section{
+        display: block;
+        background: none;
+        margin-right: 7rem;
+    }
+
+    .logo-footer{
+        margin: 1.5rem 0rem 0rem -3rem;
+    }
+
+    .sections-footer{
+        margin-left: 2rem;
+    }
+
+    .li-sections-footer:first-child{
+        margin-top: 0.5rem;
+    }
+
+    .input-contact-footer, .input-2-contact-footer{
+        width: 27rem;        
+    }
+}
+
+@media screen and (max-width: 412px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+
+    .input-contact-footer, .input-2-contact-footer{
+        width: 20rem;
+        margin: 1rem 1rem 1rem 1rem;        
+    }
+
+    .button-contact-footer{
+        width: 8rem;
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+    .p-contact-footer{
+        margin-left: 7rem;
+    }
+
+    .logo-footer{
+        margin-left: 0.5rem;
+    }
+
+    .ul-sections-footer{
+        margin-left: -2rem;
+    }
+}
